@@ -1,0 +1,1032 @@
+# depslib dependency file v1.0
+1493908357 source:c:\users\seffi\desktop\trab\trab\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1493908831 c:\users\seffi\desktop\trab\trab\include\screenmanager.h
+	<iostream>
+	<string>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"FadeAnimation.h"
+
+1493957208 c:\users\seffi\desktop\trab\trab\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	<vector>
+	<string>
+
+1494024525 c:\users\seffi\desktop\trab\trab\include\splashscreen.h
+	"GameScreen.h"
+	"ScreenManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"Animation.h"
+
+1493910166 source:c:\users\seffi\desktop\trab\trab\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494080797 source:c:\users\seffi\desktop\trab\trab\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494082696 source:c:\users\seffi\desktop\trab\trab\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1493874603 source:c:\users\seffi\desktop\trab\trab\src\inputmanager.cpp
+	"InputManager.h"
+
+1493874623 c:\users\seffi\desktop\trab\trab\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494211552 source:c:\users\seffi\desktop\trab\trab\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494211396 c:\users\seffi\desktop\trab\trab\include\titlescreen.h
+	"ScreenManager.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494197363 source:c:\users\seffi\desktop\trab\trab\src\animation.cpp
+	"Animation.h"
+
+1493909984 c:\users\seffi\desktop\trab\trab\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<string>
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494028460 source:c:\users\seffi\desktop\trab\trab\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494028171 c:\users\seffi\desktop\trab\trab\include\fadeanimation.h
+	"Animation.h"
+
+1494016999 c:\users\seffi\desktop\trab\trab\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494043821 source:c:\users\seffi\desktop\trab\trab\src\filemanager.cpp
+	"FileManager.h"
+
+1494211367 source:c:\users\seffi\desktop\trab\trab\src\menumanager.cpp
+	"MenuManager.h"
+
+1494211254 c:\users\seffi\desktop\trab\trab\include\menumanager.h
+	"ScreenManager.h"
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494222310 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\screenmanager.h
+	<iostream>
+	<string>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"FadeAnimation.h"
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	<vector>
+	<string>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\splashscreen.h
+	"GameScreen.h"
+	"ScreenManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"Animation.h"
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\fadeanimation.h
+	"Animation.h"
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<string>
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494222310 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\titlescreen.h
+	"ScreenManager.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\include\menumanager.h
+	"ScreenManager.h"
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494243470 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\animation.cpp
+	"Animation.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494222312 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\filemanager.cpp
+	"FileManager.h"
+
+1494222312 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\inputmanager.cpp
+	"InputManager.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\menumanager.cpp
+	"MenuManager.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1494242188 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab (1)\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494243590 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\screenmanager.h
+	<iostream>
+	<string>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"FadeAnimation.h"
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	<vector>
+	<string>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\splashscreen.h
+	"GameScreen.h"
+	"ScreenManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"Animation.h"
+
+1494222308 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\fadeanimation.h
+	"Animation.h"
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<string>
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494222310 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\titlescreen.h
+	"ScreenManager.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494222306 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\include\menumanager.h
+	"ScreenManager.h"
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494243470 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\animation.cpp
+	"Animation.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494222312 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\filemanager.cpp
+	"FileManager.h"
+
+1494222312 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\inputmanager.cpp
+	"InputManager.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\menumanager.cpp
+	"MenuManager.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494222314 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1494242188 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\trab\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494323488 source:c:\users\marcos campos\downloads\trab\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\screenmanager.h
+	<iostream>
+	<string>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	<vector>
+	<string>
+
+1494341534 c:\users\marcos campos\downloads\trab\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\splashscreen.h
+	"GameScreen.h"
+	"ScreenManager.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\fadeanimation.h
+	"Animation.h"
+
+1494341678 c:\users\marcos campos\downloads\trab\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1494341459 c:\users\marcos campos\downloads\trab\include\titlescreen.h
+	"ScreenManager.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494341459 c:\users\marcos campos\downloads\trab\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494340747 source:c:\users\marcos campos\downloads\trab\src\animation.cpp
+	"Animation.h"
+
+1494341459 source:c:\users\marcos campos\downloads\trab\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494323490 source:c:\users\marcos campos\downloads\trab\src\filemanager.cpp
+	"FileManager.h"
+
+1494323492 source:c:\users\marcos campos\downloads\trab\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494323492 source:c:\users\marcos campos\downloads\trab\src\inputmanager.cpp
+	"InputManager.h"
+
+1494341861 source:c:\users\marcos campos\downloads\trab\src\menumanager.cpp
+	"MenuManager.h"
+
+1494323492 source:c:\users\marcos campos\downloads\trab\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494323492 source:c:\users\marcos campos\downloads\trab\src\splashscreen.cpp
+	"SplashScreen.h"
+
+1494341459 source:c:\users\marcos campos\downloads\trab\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494372554 source:c:\users\seffi\desktop\2.0\trab\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494381163 c:\users\seffi\desktop\2.0\trab\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494380936 c:\users\seffi\desktop\2.0\trab\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1494371509 c:\users\seffi\desktop\2.0\trab\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494380928 c:\users\seffi\desktop\2.0\trab\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494371509 c:\users\seffi\desktop\2.0\trab\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494371509 c:\users\seffi\desktop\2.0\trab\include\fadeanimation.h
+	"Animation.h"
+
+1494371509 c:\users\seffi\desktop\2.0\trab\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1494373456 c:\users\seffi\desktop\2.0\trab\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494373496 c:\users\seffi\desktop\2.0\trab\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494371508 source:c:\users\seffi\desktop\2.0\trab\src\animation.cpp
+	"Animation.h"
+
+1494382463 source:c:\users\seffi\desktop\2.0\trab\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494371509 source:c:\users\seffi\desktop\2.0\trab\src\filemanager.cpp
+	"FileManager.h"
+
+1494372624 source:c:\users\seffi\desktop\2.0\trab\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494371508 source:c:\users\seffi\desktop\2.0\trab\src\inputmanager.cpp
+	"InputManager.h"
+
+1494378882 source:c:\users\seffi\desktop\2.0\trab\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1494382671 source:c:\users\seffi\desktop\2.0\trab\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494373995 source:c:\users\seffi\desktop\2.0\trab\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1494373291 source:c:\users\seffi\desktop\2.0\trab\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494380989 c:\users\seffi\desktop\2.0\trab\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+
+1494379837 c:\users\seffi\desktop\2.0\trab\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+
+1494381209 source:c:\users\seffi\desktop\2.0\trab\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1494382566 source:c:\users\seffi\desktop\2.0\trab\src\player.cpp
+	"Player.h"
+
+1494372554 source:c:\users\seffi\desktop\2.1\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494472751 c:\users\seffi\desktop\2.1\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494380936 c:\users\seffi\desktop\2.1\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1494515630 c:\users\seffi\desktop\2.1\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494371509 c:\users\seffi\desktop\2.1\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494473266 c:\users\seffi\desktop\2.1\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494472307 c:\users\seffi\desktop\2.1\include\fadeanimation.h
+	"Animation.h"
+
+1494651884 c:\users\seffi\desktop\2.1\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1494373456 c:\users\seffi\desktop\2.1\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494474989 c:\users\seffi\desktop\2.1\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494380989 c:\users\seffi\desktop\2.1\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+
+1494652599 c:\users\seffi\desktop\2.1\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+
+1494473179 source:c:\users\seffi\desktop\2.1\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1494371509 source:c:\users\seffi\desktop\2.1\src\filemanager.cpp
+	"FileManager.h"
+
+1494372624 source:c:\users\seffi\desktop\2.1\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494643713 source:c:\users\seffi\desktop\2.1\src\inputmanager.cpp
+	"InputManager.h"
+
+1494474999 source:c:\users\seffi\desktop\2.1\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1494652623 source:c:\users\seffi\desktop\2.1\src\player.cpp
+	"Player.h"
+
+1494512996 source:c:\users\seffi\desktop\2.1\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494474748 source:c:\users\seffi\desktop\2.1\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1494373291 source:c:\users\seffi\desktop\2.1\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494651904 source:c:\users\seffi\desktop\2.1\src\animation.cpp
+	"Animation.h"
+
+1494381209 source:c:\users\seffi\desktop\2.1\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1494651229 source:c:\users\seffi\desktop\2.1\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1494480280 source:c:\users\seffi\desktop\2.1\src\panimation.cpp
+	"PAnimation.h"
+
+1494479743 c:\users\seffi\desktop\2.1\include\panimation.h
+	<allegro5/allegro5.h>
+	"InputManager.h"
+
+1494511772 c:\users\seffi\desktop\2.1\include\spritesheetanimation.h
+	"Animation.h"
+
+1496069206 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1494875180 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494679480 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1494679480 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1494679474 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1494679484 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1494679474 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\fadeanimation.h
+	"Animation.h"
+
+1496066662 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1494679486 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1494679482 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1494679474 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+
+1496164931 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1494679486 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\spritesheetanimation.h
+	"Animation.h"
+
+1496155973 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\animation.cpp
+	"Animation.h"
+
+1496155996 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496164767 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\filemanager.cpp
+	"FileManager.h"
+
+1494679496 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1494679496 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\gamescreen.cpp
+	"GameScreen.h"
+
+1494679496 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\inputmanager.cpp
+	"InputManager.h"
+
+1494679496 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496173269 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\player.cpp
+	"Player.h"
+
+1494679498 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1494679500 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1494679500 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1495814507 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1494946365 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\layer.cpp
+	"Layer.h"
+
+1496058120 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\layer.h
+	"Tile.h"
+	"FileManager.h"
+	<string>
+	<vector>
+	<algorithm>
+
+1496064195 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\tile.h
+	<allegro5/allegro.h>
+	<iostream>
+	"Animation.h"
+
+1494945293 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\map.cpp
+	"Map.h"
+
+1496058035 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\map.h
+	"Layer.h"
+
+1494946705 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\tile.cpp
+	"Tile.h"
+
+1496153405 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\physics.h
+
+1496173269 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496173766 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+
+1496173397 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\update 2.2 - player moves\include\gameover.h
+
+1496159594 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1496183058 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496159682 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1496159684 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1496159678 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1496159694 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496159676 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\fadeanimation.h
+	"Animation.h"
+
+1496159674 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1496159698 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1496159688 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1496181166 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+	"BG.h"
+
+1496159692 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1496159696 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\spritesheetanimation.h
+	"Animation.h"
+
+1496159690 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\physics.h
+
+1496183284 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\gameover.h
+
+1496159618 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\animation.cpp
+	"Animation.h"
+
+1496159620 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496159622 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\filemanager.cpp
+	"FileManager.h"
+
+1496182421 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+	"ScreenManager.h"
+
+1496181188 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1496159626 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\gamescreen.cpp
+	"GameScreen.h"
+
+1496159628 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\inputmanager.cpp
+	"InputManager.h"
+
+1496159630 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496159636 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496182936 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\player.cpp
+	"Player.h"
+
+1496159638 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+
+1496159638 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1496159640 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1496159642 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1496181127 c:\users\seffi\desktop\dodo\update 2.2 - player moves\include\bg.h
+	<allegro5/allegro.h>
+
+1496117002 source:c:\users\seffi\desktop\dodo\update 2.2 - player moves\src\bg.cpp
+	"BG.h"
+
