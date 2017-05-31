@@ -8,7 +8,7 @@
 #include "GameScreen.h"
 #include "SplashScreen.h"
 #include "TitleScreen.h"
-#include"FadeAnimation.h"
+#include "FadeAnimation.h"
 #include "GameplayScreen.h"
 
 #include<allegro5/allegro.h>
