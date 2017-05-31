@@ -1,5 +1,6 @@
 #include "GameOver.h"
 #include "Player.h"
+#include "ScreenManager.h"
 
 
 GameOver::GameOver(){
@@ -24,7 +25,7 @@ bool GameOver::isDougrasDead()
        || pl->pAnimation.position[0] >= 700 || pl->pAnimation.position[0] <= 0)
     {
         cout << "PERDEU VIADO";
-
+        ScreenManager::GetInstance().AddScreen("TitleScreen");
 
     }
 }
