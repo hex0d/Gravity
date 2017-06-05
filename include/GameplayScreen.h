@@ -2,6 +2,8 @@
 #include "GameScreen.h"
 #include "Player.h"
 #include "BG.h"
+#include "Projectiles.h"
+
 
 class GameplayScreen : public GameScreen
 {
@@ -18,4 +20,5 @@ class GameplayScreen : public GameScreen
     private:
         Player player;
         BG bg;
+        Projectiles projectile;
 };

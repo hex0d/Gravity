@@ -1,4 +1,6 @@
 #include "Player.h"
+#include "Includes.h"
+
 using namespace std;
 
 
@@ -72,7 +74,7 @@ void Player::Update(ALLEGRO_EVENT ev, InputManager input)
 
     pAnimation.CurrentFrame().second = direction;
 
-    if(pAnimation.position[1] <= 700 && !input.IsKeyDown(ALLEGRO_KEY_SPACE))
+    if(pAnimation.position[1] <= SCREENW - PLAYERSIZE && !input.IsKeyDown(ALLEGRO_KEY_SPACE))
         ph.playerMove(0,ySpeed,100); //100 - ANY NUMBER
 
     go.isDougrasDead();

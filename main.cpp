@@ -5,6 +5,10 @@ using namespace std;
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_native_dialog.h>
 #include <vector>
+#define SCREENW 800
+#define SCREENH 600
+#define PLAYERSIZE 100
+
 using std::vector;
 int main()
 {
@@ -15,7 +19,7 @@ int main()
         al_show_native_message_box(NULL,"Error","Error","Cannot Initall al5",NULL,NULL);
         return -1;
     }
-    display = al_create_display(800,600);
+    display = al_create_display(SCREENW,SCREENH);
     if(!display)
     {
         al_show_native_message_box(NULL,"Error","Error","Cannot Initall display",NULL,NULL);

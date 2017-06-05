@@ -1196,3 +1196,528 @@
 1496159642 source:c:\users\seffi\documents\github\gravity\src\titlescreen.cpp
 	"TitleScreen.h"
 
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\fadeanimation.h
+	"Animation.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+	"BG.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\spritesheetanimation.h
+	"Animation.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\physics.h
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\gameover.h
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\bg.h
+	<allegro5/allegro.h>
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\animation.cpp
+	"Animation.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\bg.cpp
+	"BG.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\filemanager.cpp
+	"FileManager.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+	"ScreenManager.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\gameoverscreen.cpp
+	"GameOverScreen.h"
+
+1496184544 c:\users\marcos campos\downloads\gravity-master\include\gameoverscreen.h
+	"GameScreen.h"
+	"FadeAnimation.h"
+	"Animation.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\gamescreen.cpp
+	"GameScreen.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\inputmanager.cpp
+	"InputManager.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\player.cpp
+	"Player.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+	"GameOverScreen.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1496184544 source:c:\users\marcos campos\downloads\gravity-master\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\fadeanimation.h
+	"Animation.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+	"BG.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\spritesheetanimation.h
+	"Animation.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\physics.h
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\gameover.h
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\bg.h
+	<allegro5/allegro.h>
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\animation.cpp
+	"Animation.h"
+
+1496200545 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\bg.cpp
+	"BG.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\filemanager.cpp
+	"FileManager.h"
+
+1496364834 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+	"ScreenManager.h"
+
+1496321589 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\gameoverscreen.cpp
+	"GameOverScreen.h"
+
+1496184544 c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\include\gameoverscreen.h
+	"GameScreen.h"
+	"FadeAnimation.h"
+	"Animation.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\gamescreen.cpp
+	"GameScreen.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\inputmanager.cpp
+	"InputManager.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496365019 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\player.cpp
+	"Player.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+	"GameOverScreen.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1496184544 source:c:\users\marcos campos\documents\engenharia da computacao\2 periodo\tecnicas de programacao\jogo\gravity-master\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1496514941 source:c:\users\seffi\desktop\2\gravity-master\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1496496098 c:\users\seffi\desktop\2\gravity-master\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1496496100 c:\users\seffi\desktop\2\gravity-master\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\fadeanimation.h
+	"Animation.h"
+
+1496496094 c:\users\seffi\desktop\2\gravity-master\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1496496100 c:\users\seffi\desktop\2\gravity-master\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1496637524 c:\users\seffi\desktop\2\gravity-master\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+	"BG.h"
+	"Projectiles.h"
+
+1496496098 c:\users\seffi\desktop\2\gravity-master\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1496496100 c:\users\seffi\desktop\2\gravity-master\include\spritesheetanimation.h
+	"Animation.h"
+
+1496496098 c:\users\seffi\desktop\2\gravity-master\include\physics.h
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\gameover.h
+
+1496496094 c:\users\seffi\desktop\2\gravity-master\include\bg.h
+	<allegro5/allegro.h>
+
+1496496084 source:c:\users\seffi\desktop\2\gravity-master\src\animation.cpp
+	"Animation.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\bg.cpp
+	"BG.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\filemanager.cpp
+	"FileManager.h"
+
+1496515208 source:c:\users\seffi\desktop\2\gravity-master\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+	"ScreenManager.h"
+	"Includes.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\gameoverscreen.cpp
+	"GameOverScreen.h"
+
+1496496096 c:\users\seffi\desktop\2\gravity-master\include\gameoverscreen.h
+	"GameScreen.h"
+	"FadeAnimation.h"
+	"Animation.h"
+
+1496637774 source:c:\users\seffi\desktop\2\gravity-master\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\gamescreen.cpp
+	"GameScreen.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\inputmanager.cpp
+	"InputManager.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496515085 source:c:\users\seffi\desktop\2\gravity-master\src\player.cpp
+	"Player.h"
+	"Includes.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+	"GameOverScreen.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity-master\src\titlescreen.cpp
+	"TitleScreen.h"
+
+1496515023 source:c:\users\seffi\desktop\2\gravity-master\src\includes.cpp
+	"Includes.h"
+
+1496515065 c:\users\seffi\desktop\2\gravity-master\include\includes.h
+
+1496630973 source:c:\users\seffi\desktop\2\gravity-master\src\projetil.cpp
+	"Projetil.h"
+
+1496630973 c:\users\seffi\desktop\2\gravity-master\include\projetil.h
+
+1496637774 c:\users\seffi\desktop\2\gravity-master\include\projectiles.h
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	"GameOver.h"
+
+1496638159 source:c:\users\seffi\desktop\2\gravity-master\src\projectiles.cpp
+	"Projectiles.h"
+	"Includes.h"
+	<math.h>
+	<cstdlib>
+	<time.h>
+

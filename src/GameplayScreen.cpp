@@ -20,10 +20,12 @@ void GameplayScreen::UnloadContent(){
 
 void GameplayScreen::Update(ALLEGRO_EVENT ev){
     player.Update(ev,input);
+    projectile.Update(ev);
 }
 
 void GameplayScreen::Draw(ALLEGRO_DISPLAY *display){
     bg.Draw(display);
     player.Draw(display);
+    projectile.Draw(display);
 
 }
