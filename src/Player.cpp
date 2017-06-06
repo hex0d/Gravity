@@ -55,9 +55,11 @@ void Player::UnloadContent()
 }
 void Player::Update(ALLEGRO_EVENT ev, InputManager input)
 {
+        pAnimation.IsActive() = true;
+    ssAnimation.Update(pAnimation);
 
     input.Update();
-    pAnimation.IsActive() = true;
+
 
     if(input.IsKeyDown(ALLEGRO_KEY_SPACE)&& input.IsKeyDown(ALLEGRO_KEY_RIGHT))
         ph.playerMove(xSpeed,ySpeed,0);
@@ -79,7 +81,6 @@ void Player::Update(ALLEGRO_EVENT ev, InputManager input)
 
     go.isDougrasDead();
 
-    ssAnimation.Update(pAnimation);
 }
 void Player::Draw(ALLEGRO_DISPLAY *display)
 {

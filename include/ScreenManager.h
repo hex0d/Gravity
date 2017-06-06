@@ -28,7 +28,7 @@ class ScreenManager
         ScreenManager(ScreenManager const&);
         void operator=(ScreenManager const&);
         string text;
-        GameScreen *currentScreen,*newScreen;
+
         Animation transition;
         FadeAnimation fade;
         ALLEGRO_BITMAP *transitionImage;
@@ -36,6 +36,7 @@ class ScreenManager
         bool startTransition;
         map<string, GameScreen*> screenDirectory;
     public:
+        GameScreen *currentScreen,*newScreen;
         ~ScreenManager();
         static ScreenManager &GetInstance();
         void AddScreen(string newScreen);

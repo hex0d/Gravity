@@ -51,6 +51,7 @@
 		<Unit filename="include/Layer.h" />
 		<Unit filename="include/Map.h" />
 		<Unit filename="include/MenuManager.h" />
+		<Unit filename="include/PPC.h" />
 		<Unit filename="include/Physics.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="include/Projectiles.h" />
@@ -60,6 +61,7 @@
 		<Unit filename="include/SpriteSheetAnimation.h" />
 		<Unit filename="include/Tile.h" />
 		<Unit filename="include/TitleScreen.h" />
+		<Unit filename="include/WaitScreen.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Animation.cpp" />
 		<Unit filename="src/BG.cpp" />
@@ -72,6 +74,7 @@
 		<Unit filename="src/Includes.cpp" />
 		<Unit filename="src/InputManager.cpp" />
 		<Unit filename="src/MenuManager.cpp" />
+		<Unit filename="src/PPC.cpp" />
 		<Unit filename="src/Physics.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Unit filename="src/Projectiles.cpp" />
@@ -80,6 +83,7 @@
 		<Unit filename="src/SplashScreen.cpp" />
 		<Unit filename="src/SpriteSheetAnimation.cpp" />
 		<Unit filename="src/TitleScreen.cpp" />
+		<Unit filename="src/WaitScreen.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

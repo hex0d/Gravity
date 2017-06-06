@@ -8,6 +8,7 @@
 #include "SpriteSheetAnimation.h"
 #include "Physics.h"
 #include "GameOver.h"
+//#include "PPC.h"
 
 using namespace std;
 
@@ -22,12 +23,14 @@ class Player
         void Draw(ALLEGRO_DISPLAY *display);
         friend Physics;
         friend GameOver;
-
+      //  friend PPC;
+        ALLEGRO_BITMAP *playerImage;
+        Animation pAnimation;
     protected:
 
     private:
         FileManager fm;
-        ALLEGRO_BITMAP *playerImage;
+
         float position[2] = {100,100};
         int xSpeed;
         int ySpeed;
@@ -36,7 +39,7 @@ class Player
 
         vector<vector<string > > attributes;
         vector<vector<string > > contents;
-        Animation pAnimation;
+
         SpriteSheetAnimation ssAnimation;
         enum Direction {Right,Left};
         Direction direction;

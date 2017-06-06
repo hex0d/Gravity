@@ -14,7 +14,7 @@ void Animation::LoadContent(ALLEGRO_BITMAP *image,string text,float position[2])
     alpha = 255;
     font = al_load_font("1.ttf",30,NULL);
     sourceRect = image;
-    isActive = false;
+    isActive = true;
     amountOfFrames = pair<int,int>(9,2);
     currentFrame = pair<int,int>(0,0);
 }

@@ -1609,13 +1609,13 @@
 	<vector>
 	<sstream>
 
-1496637524 c:\users\seffi\desktop\2\gravity-master\include\gameplayscreen.h
+1496704900 c:\users\seffi\desktop\2\gravity-master\include\gameplayscreen.h
 	"GameScreen.h"
 	"Player.h"
 	"BG.h"
 	"Projectiles.h"
 
-1496496098 c:\users\seffi\desktop\2\gravity-master\include\player.h
+1496704915 c:\users\seffi\desktop\2\gravity-master\include\player.h
 	<allegro5/allegro.h>
 	<vector>
 	<string>
@@ -1630,7 +1630,7 @@
 
 1496496098 c:\users\seffi\desktop\2\gravity-master\include\physics.h
 
-1496496096 c:\users\seffi\desktop\2\gravity-master\include\gameover.h
+1496699448 c:\users\seffi\desktop\2\gravity-master\include\gameover.h
 
 1496496094 c:\users\seffi\desktop\2\gravity-master\include\bg.h
 	<allegro5/allegro.h>
@@ -1647,7 +1647,7 @@
 1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\filemanager.cpp
 	"FileManager.h"
 
-1496515208 source:c:\users\seffi\desktop\2\gravity-master\src\gameover.cpp
+1496704992 source:c:\users\seffi\desktop\2\gravity-master\src\gameover.cpp
 	"GameOver.h"
 	"Player.h"
 	"ScreenManager.h"
@@ -1661,8 +1661,9 @@
 	"FadeAnimation.h"
 	"Animation.h"
 
-1496637774 source:c:\users\seffi\desktop\2\gravity-master\src\gameplayscreen.cpp
+1496701051 source:c:\users\seffi\desktop\2\gravity-master\src\gameplayscreen.cpp
 	"GameplayScreen.h"
+	"Includes.h"
 
 1496496088 source:c:\users\seffi\desktop\2\gravity-master\src\gamescreen.cpp
 	"GameScreen.h"
@@ -1678,7 +1679,7 @@
 	"Physics.h"
 	"Player.h"
 
-1496515085 source:c:\users\seffi\desktop\2\gravity-master\src\player.cpp
+1496704906 source:c:\users\seffi\desktop\2\gravity-master\src\player.cpp
 	"Player.h"
 	"Includes.h"
 
@@ -1707,17 +1708,241 @@
 
 1496630973 c:\users\seffi\desktop\2\gravity-master\include\projetil.h
 
-1496637774 c:\users\seffi\desktop\2\gravity-master\include\projectiles.h
+1496704793 c:\users\seffi\desktop\2\gravity-master\include\projectiles.h
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	<cstdlib>
+	<ctime>
+	<GameOver.h>
+
+1496701155 source:c:\users\seffi\desktop\2\gravity-master\src\projectiles.cpp
+	"Projectiles.h"
+	"Includes.h"
+	<math.h>
+	<cstdlib>
+	<ctime>
+
+1496704854 c:\users\seffi\desktop\2\gravity-master\include\ppc.h
+	"ScreenManager.h"
+
+1496514941 source:c:\users\seffi\desktop\2\gravity\main.cpp
+	<iostream>
+	"ScreenManager.h"
+	"InputManager.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<vector>
+
+1496714662 c:\users\seffi\desktop\2\gravity\include\screenmanager.h
+	<iostream>
+	<string>
+	<map>
+	"GameScreen.h"
+	"SplashScreen.h"
+	"TitleScreen.h"
+	"FadeAnimation.h"
+	"GameplayScreen.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity\include\gamescreen.h
+	<allegro5/allegro.h>
+	"InputManager.h"
+	"FileManager.h"
+	<vector>
+	<string>
+
+1496496096 c:\users\seffi\desktop\2\gravity\include\inputmanager.h
+	<allegro5/allegro.h>
+	<allegro5/keyboard.h>
+	<vector>
+
+1496496096 c:\users\seffi\desktop\2\gravity\include\filemanager.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<algorithm>
+
+1496496100 c:\users\seffi\desktop\2\gravity\include\splashscreen.h
+	"GameScreen.h"
+	"InputManager.h"
+	"FileManager.h"
+	"FadeAnimation.h"
+	"TitleScreen.h"
+	"Animation.h"
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity\include\fadeanimation.h
+	"Animation.h"
+
+1496496094 c:\users\seffi\desktop\2\gravity\include\animation.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<string>
+	"InputManager.h"
+
+1496716867 c:\users\seffi\desktop\2\gravity\include\titlescreen.h
+	"GameScreen.h"
+	"MenuManager.h"
+	"InputManager.h"
+	<allegro5/allegro_font.h>
+
+1496496096 c:\users\seffi\desktop\2\gravity\include\menumanager.h
+	"Animation.h"
+	"FadeAnimation.h"
+	"FileManager.h"
+	<allegro5/allegro.h>
+	<vector>
+	<sstream>
+
+1496721604 c:\users\seffi\desktop\2\gravity\include\gameplayscreen.h
+	"GameScreen.h"
+	"Player.h"
+	"BG.h"
+	"Projectiles.h"
+	"PPC.h"
+
+1496711950 c:\users\seffi\desktop\2\gravity\include\player.h
+	<allegro5/allegro.h>
+	<vector>
+	<string>
 	"InputManager.h"
 	"FileManager.h"
 	"SpriteSheetAnimation.h"
 	"Physics.h"
 	"GameOver.h"
 
-1496638159 source:c:\users\seffi\desktop\2\gravity-master\src\projectiles.cpp
+1496496100 c:\users\seffi\desktop\2\gravity\include\spritesheetanimation.h
+	"Animation.h"
+
+1496711783 c:\users\seffi\desktop\2\gravity\include\physics.h
+
+1496712348 c:\users\seffi\desktop\2\gravity\include\gameover.h
+
+1496496094 c:\users\seffi\desktop\2\gravity\include\bg.h
+	<allegro5/allegro.h>
+
+1496704793 c:\users\seffi\desktop\2\gravity\include\projectiles.h
+	"InputManager.h"
+	"FileManager.h"
+	"SpriteSheetAnimation.h"
+	"Physics.h"
+	<cstdlib>
+	<ctime>
+	<GameOver.h>
+
+1496719086 source:c:\users\seffi\desktop\2\gravity\src\animation.cpp
+	"Animation.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity\src\bg.cpp
+	"BG.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity\src\fadeanimation.cpp
+	"FadeAnimation.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity\src\filemanager.cpp
+	"FileManager.h"
+
+1496714081 source:c:\users\seffi\desktop\2\gravity\src\gameover.cpp
+	"GameOver.h"
+	"Player.h"
+	"ScreenManager.h"
+	"Includes.h"
+	"PPC.h"
+
+1496515065 c:\users\seffi\desktop\2\gravity\include\includes.h
+
+1496716119 source:c:\users\seffi\desktop\2\gravity\src\gameoverscreen.cpp
+	"GameOverScreen.h"
+	"ScreenManager.h"
+
+1496713405 c:\users\seffi\desktop\2\gravity\include\gameoverscreen.h
+	"GameScreen.h"
+	"FadeAnimation.h"
+	"Animation.h"
+
+1496722626 source:c:\users\seffi\desktop\2\gravity\src\gameplayscreen.cpp
+	"GameplayScreen.h"
+	"Includes.h"
+	"ScreenManager.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity\src\gamescreen.cpp
+	"GameScreen.h"
+
+1496515023 source:c:\users\seffi\desktop\2\gravity\src\includes.cpp
+	"Includes.h"
+
+1496496088 source:c:\users\seffi\desktop\2\gravity\src\inputmanager.cpp
+	"InputManager.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity\src\menumanager.cpp
+	"MenuManager.h"
+	"ScreenManager.h"
+
+1496719093 source:c:\users\seffi\desktop\2\gravity\src\physics.cpp
+	"Physics.h"
+	"Player.h"
+
+1496722511 source:c:\users\seffi\desktop\2\gravity\src\player.cpp
+	"Player.h"
+	"Includes.h"
+
+1496717198 source:c:\users\seffi\desktop\2\gravity\src\projectiles.cpp
 	"Projectiles.h"
 	"Includes.h"
 	<math.h>
 	<cstdlib>
-	<time.h>
+	<ctime>
+
+1496630973 source:c:\users\seffi\desktop\2\gravity\src\projetil.cpp
+	"Projetil.h"
+
+1496630973 c:\users\seffi\desktop\2\gravity\include\projetil.h
+
+1496722606 source:c:\users\seffi\desktop\2\gravity\src\screenmanager.cpp
+	"ScreenManager.h"
+	"GameScreen.h"
+	"GameOverScreen.h"
+	"WaitScreen.h"
+
+1496496090 source:c:\users\seffi\desktop\2\gravity\src\splashscreen.cpp
+	"SplashScreen.h"
+	"ScreenManager.h"
+
+1496722490 source:c:\users\seffi\desktop\2\gravity\src\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1496716964 source:c:\users\seffi\desktop\2\gravity\src\titlescreen.cpp
+	"TitleScreen.h"
+	"ScreenManager.h"
+
+1496705171 source:c:\users\seffi\desktop\2\gravity\src\ppc.cpp
+	"PPC.h"
+	<cmath>
+
+1496712674 c:\users\seffi\desktop\2\gravity\include\ppc.h
+	"Player.h"
+
+1496718779 source:c:\users\seffi\desktop\2\gravity\src\waitscreen.cpp
+	"WaitScreen.h"
+	"ScreenManager.h"
+	"Includes.h"
+
+1496718701 c:\users\seffi\desktop\2\gravity\include\waitscreen.h
+	"InputManager.h"
+	"GameScreen.h"
+	<allegro5/allegro_font.h>
 

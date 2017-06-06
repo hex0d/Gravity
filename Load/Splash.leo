@@ -1,7 +1,7 @@
 Load=[Image]
-[Splash/BS.bmp]
-[Splash/img1.bmp]
-[Splash/img2.jpg]
+[marcola.png]
+[marcola.png]
+[marcola.png]
 
 Load=[Title]
 

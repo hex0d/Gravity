@@ -1,8 +1,9 @@
 #pragma once
+//#include "PPC.h"
 
 
 class Player;
-class GameOver
+class GameOver//: public PPC
 {
     public:
         GameOver();

@@ -3,7 +3,8 @@
 #include "Player.h"
 #include "BG.h"
 #include "Projectiles.h"
-
+#include "PPC.h"
+class Player;
 
 class GameplayScreen : public GameScreen
 {
@@ -14,11 +15,15 @@ class GameplayScreen : public GameScreen
         void UnloadContent();
         void Update(ALLEGRO_EVENT ev);
         void Draw(ALLEGRO_DISPLAY *display);
+        Projectiles projectile[9];
+//        friend PPC;
 
     protected:
 
     private:
         Player player;
         BG bg;
-        Projectiles projectile;
+        PPC ppc;
+
+        //void newProj();
 };
