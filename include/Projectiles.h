@@ -15,7 +15,7 @@ class Projectiles
         Projectiles();
         virtual ~Projectiles();
         void LoadContent();
-        void Update(ALLEGRO_EVENT ev);
+        void Update(ALLEGRO_EVENT ev,int fase);
         void Draw(ALLEGRO_DISPLAY *display);
         float randomizer(int i);
         bool active;
@@ -28,14 +28,15 @@ class Projectiles
     protected:
 
     private:
+
         float seed = time(0);
         float finalposx;
         float finalposy;
         int quadr;
         float posx;
         float posy;
-        float velx;
-        float vely;
+        float velx[3];
+        float vely[3];
 
         ALLEGRO_BITMAP *proj = al_load_bitmap("proj.png");
 };

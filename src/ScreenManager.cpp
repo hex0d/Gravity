@@ -2,6 +2,9 @@
 #include "GameScreen.h"
 #include "GameOverScreen.h"
 #include "WaitScreen.h"
+#include "WinScreen1.h"
+#include "WinScreen2.h"
+#include "WinScreenEnd.h"
 ScreenManager &ScreenManager::GetInstance(){
     static ScreenManager instance;
     return instance;
@@ -23,6 +26,9 @@ void ScreenManager::AddScreen(std::string screenName){
     transition.IsActive() = true;
 }
 void ScreenManager::Initialize(){ // para fazer um noto tipo de tela tem que criar a classe como filha de GameScreen senao n da certo e chamar assim as funções :: Exemplo-> ||         ScreenManager::GetInstance().AddScreen("GameOverScreen");
+    screenDirectory["WinScreen1"] = new WinScreen1();
+    screenDirectory["WinScreen2"] = new WinScreen2();
+    screenDirectory["WinScreenEnd"] = new WinScreenEnd();
     screenDirectory["WaitScreen"] = new WaitScreen();
     screenDirectory["GameOverScreen"] = new GameOverScreen();
     screenDirectory["SplashScreen"] = new SplashScreen();

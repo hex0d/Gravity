@@ -9,6 +9,7 @@
 #include "Physics.h"
 #include "GameOver.h"
 //#include "PPC.h"
+#include "Timer.h"
 
 using namespace std;
 
@@ -36,6 +37,7 @@ class Player
         int ySpeed;
         Physics ph;
         GameOver go;
+        //Timer timer;
 
         vector<vector<string > > attributes;
         vector<vector<string > > contents;

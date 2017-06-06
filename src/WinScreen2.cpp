@@ -1,26 +1,26 @@
-#include "GameOverScreen.h"
+#include "WinScreen2.h"
 #include "ScreenManager.h"
 
-GameOverScreen::GameOverScreen()
+WinScreen2::WinScreen2()
 {
     //ctor
 }
 
-GameOverScreen::~GameOverScreen()
+WinScreen2::~WinScreen2()
 {
     //dtor
 }
-void GameOverScreen::Update(ALLEGRO_EVENT ev,InputManager &input){
-    input.Update();
+void WinScreen2::Update(ALLEGRO_EVENT ev,InputManager &input){
+    /*input.Update();
     if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
         ScreenManager::GetInstance().AddScreen("GameplayScreen");
-    }
+    }*/
 
 
 }
 
 
-void GameOverScreen::Draw(ALLEGRO_DISPLAY *display){
+void WinScreen2::Draw(ALLEGRO_DISPLAY *display){
     input.Update();
     if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
         ScreenManager::GetInstance().currentScreen->UnloadContent();
@@ -30,6 +30,7 @@ void GameOverScreen::Draw(ALLEGRO_DISPLAY *display){
     if((input.IsKeyDown(ALLEGRO_KEY_R))){
         ScreenManager::GetInstance().currentScreen->UnloadContent();
         ScreenManager::GetInstance().AddScreen("WaitScreen");
+        GameplayScreen::fase =2;
 
     }
     al_draw_bitmap(go,250,200,NULL);

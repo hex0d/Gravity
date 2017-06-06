@@ -8,10 +8,14 @@ using namespace std;
 #define SCREENW 800
 #define SCREENH 600
 #define PLAYERSIZE 100
-
+#include "Projectiles.h"
+#include "GameplayScreen.h"
 using std::vector;
+int GameplayScreen::fase =0;
+
 int main()
 {
+
     const float FPS =60.0;
     ALLEGRO_DISPLAY *display;
     if(!al_init())
@@ -47,6 +51,8 @@ int main()
     al_start_timer(timer);
     while(!done)
     {
+
+
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue,&ev);
         al_get_keyboard_state(&keyState);

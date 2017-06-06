@@ -1,11 +1,13 @@
 #include "GameplayScreen.h"
 #include "Includes.h"
 #include "ScreenManager.h"
+
 /*void GameplayScreen::newProj(){
     for (int i = 0 ; i<7 ; i++){
         projectile[i] = new Projectiles;
     }
 }*/
+
 GameplayScreen::GameplayScreen()
 {
     //projectile[9].LoadContent()
@@ -18,9 +20,20 @@ GameplayScreen::~GameplayScreen()
 {
     //dtor
 }
+
+
+/*void GameplayScreen::setFase(int _fase){
+    fase = _fase;
+}
+int GameplayScreen::getFase(){
+    return fase;
+}*/
+
 void GameplayScreen::LoadContent()
 {
     player.LoadContent();
+    timer.start();
+
 }
 
 
@@ -40,7 +53,7 @@ void GameplayScreen::UnloadContent()
 
 void GameplayScreen::Update(ALLEGRO_EVENT ev)
 {
-
+    timer.update();
 
 
 
@@ -48,7 +61,7 @@ void GameplayScreen::Update(ALLEGRO_EVENT ev)
     {
         if(projectile[i].active)
         {
-            projectile[i].Update(ev);
+            projectile[i].Update(ev,GameplayScreen::fase);
             if (projectile[i].posx >= SCREENW+70|| projectile[i].posx <= -70|| projectile[i].posy >= SCREENH + 50 || projectile[i].posy <= -50)
                 projectile[i].active = false;
 
@@ -65,6 +78,8 @@ void GameplayScreen::Update(ALLEGRO_EVENT ev)
         }
     }
     player.Update(ev,input);
+
+
 }
 
 
@@ -72,14 +87,18 @@ void GameplayScreen::Draw(ALLEGRO_DISPLAY *display)
 {
 
     bg.Draw(display);
-        player.Draw(display);
+    player.Draw(display);
+    timer.draw(display);
+    timer.ended(GameplayScreen::fase);
+    cout<<timer.seconds<<endl;
+
 
 
     for (int p=0; p<9; p++)
         {
         if(!projectile[p].active)
             {
-            if(rand()%150 == 0){
+            if(rand()%350 == 0){
                 projectile[p].LoadContent();
                 cout << "PROJ" << p<<endl;
                 projectile[p].active = true;

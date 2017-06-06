@@ -1,9 +1,9 @@
-#include "Projectiles.h"#include "Projectiles.h"#include "Projectiles.h"
+#include "Projectiles.h"
 #include "Includes.h"
 #include <math.h>
 #include <cstdlib>
 #include <ctime>
-float Projectiles::randomizer(int i){
+/*float Projectiles::randomizer(int i){
     int k;
     srand(time(NULL));
     for(int j = 0; j<i;j++){
@@ -11,7 +11,7 @@ float Projectiles::randomizer(int i){
     }
     return k;
 
-}
+}*/
 
 Projectiles::Projectiles()
 {
@@ -24,7 +24,7 @@ Projectiles::~Projectiles()
 {
     //dtor
 }
-void Projectiles::cria(){
+/*void Projectiles::cria(){
     /* (int p=0; p<7; p++)
     {
         if(!projectile[p].active)
@@ -43,7 +43,7 @@ void Projectiles::cria(){
 
 
 
-}
+
 void Projectiles::LoadContent()
 {
         //srand(time(0));
@@ -122,8 +122,14 @@ void Projectiles::LoadContent()
         break;
 
     }
-    velx = (finalposx - posx)/120;
-    vely = (finalposy - posy)/120;
+    velx[0] = ((finalposx - posx)/120)/2;
+    vely[0] = ((finalposy - posy)/120)/2;
+    velx[1] = (finalposx - posx)/120;
+    vely[1] = (finalposy - posy)/120;
+
+
+    velx[2] = ((finalposx - posx)/120)*2;
+    vely[2] = ((finalposy - posy)/120)*2;
 
 
 
@@ -131,7 +137,12 @@ void Projectiles::LoadContent()
 
 
 }
-void Projectiles::Update(ALLEGRO_EVENT ev)
+void Projectiles::Update(ALLEGRO_EVENT ev,int fase){
+    posx += velx[fase];
+    posy += vely[fase];
+
+}
+/*void Projectiles::Update(ALLEGRO_EVENT ev);
 {
         //srand(time(0));
     //velx = vely = 7;
@@ -141,8 +152,8 @@ void Projectiles::Update(ALLEGRO_EVENT ev)
     {
     case 0:
         //srand(time(0));*/
-        posx += velx;
-        posy += vely;
+//        posx += velx;
+       // posy += vely;
         /*break;
 
     case 1:
@@ -202,7 +213,7 @@ void Projectiles::Update(ALLEGRO_EVENT ev)
 
 
 
-}
+//}
 
 void Projectiles::Draw(ALLEGRO_DISPLAY *display){
     al_draw_bitmap(proj,posx,posy,NULL);
