@@ -28,7 +28,7 @@ class ScreenManager
         ScreenManager(ScreenManager const&);
         void operator=(ScreenManager const&);
         string text;
-
+        ALLEGRO_DISPLAY *display;
         Animation transition;
         FadeAnimation fade;
         ALLEGRO_BITMAP *transitionImage;

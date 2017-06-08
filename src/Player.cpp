@@ -45,6 +45,7 @@ void Player::LoadContent()
     xSpeed = 5; //alterar no level
 
     pAnimation.LoadContent(playerImage,"",position);
+
 }
 void Player::UnloadContent()
 {

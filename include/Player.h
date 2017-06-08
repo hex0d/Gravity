@@ -10,6 +10,8 @@
 #include "GameOver.h"
 //#include "PPC.h"
 #include "Timer.h"
+#include <allegro5/allegro_acodec.h>
+#include <allegro5/allegro_audio.h>
 
 using namespace std;
 
@@ -24,6 +26,7 @@ class Player
         void Draw(ALLEGRO_DISPLAY *display);
         friend Physics;
         friend GameOver;
+
       //  friend PPC;
         ALLEGRO_BITMAP *playerImage;
         Animation pAnimation;

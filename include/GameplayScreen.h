@@ -5,6 +5,7 @@
 #include "Projectiles.h"
 #include "PPC.h"
 #include "Timer.h"
+
 class Player;
 
 class GameplayScreen : public GameScreen
@@ -17,6 +18,9 @@ class GameplayScreen : public GameScreen
         void Update(ALLEGRO_EVENT ev);
         void Draw(ALLEGRO_DISPLAY *display);
         Projectiles projectile[9];
+        void liberaProjetil(ALLEGRO_EVENT ev);
+        void checaColisao();
+
         //static void setFase(int _fase);
         //static int getFase();
         static int fase;

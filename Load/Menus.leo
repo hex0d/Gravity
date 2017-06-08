@@ -7,6 +7,6 @@ Load=[Item][ItemLink]
 [New Game][WaitScreen]
 [Credits][SplashScreen]
 [Options][SplashScreen]
-[Exit][ExitScreen]
+
 
 EndLoad=[Title]

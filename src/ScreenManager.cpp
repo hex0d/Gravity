@@ -26,6 +26,7 @@ void ScreenManager::AddScreen(std::string screenName){
     transition.IsActive() = true;
 }
 void ScreenManager::Initialize(){ // para fazer um noto tipo de tela tem que criar a classe como filha de GameScreen senao n da certo e chamar assim as funções :: Exemplo-> ||         ScreenManager::GetInstance().AddScreen("GameOverScreen");
+//    screenDirectory["ExitScreen"] = new ExitScreen();
     screenDirectory["WinScreen1"] = new WinScreen1();
     screenDirectory["WinScreen2"] = new WinScreen2();
     screenDirectory["WinScreenEnd"] = new WinScreenEnd();

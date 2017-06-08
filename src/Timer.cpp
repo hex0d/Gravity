@@ -45,6 +45,13 @@ void Timer::ended(int i){
         ScreenManager::GetInstance().AddScreen("WinScreen2");
 
         }
+        if(i==2){
+                        // ScreenManager::GetInstance().currentScreen->UnloadContent();
+
+        //ScreenManager::GetInstance().currentScreen->UnloadContent();
+        ScreenManager::GetInstance().AddScreen("WinScreenEnd");
+
+        }
 
     }
 

@@ -18,6 +18,7 @@ int main()
 
     const float FPS =60.0;
     ALLEGRO_DISPLAY *display;
+    ALLEGRO_SAMPLE *sample = al_load_sample("sgame.wav");
     if(!al_init())
     {
         al_show_native_message_box(NULL,"Error","Error","Cannot Initall al5",NULL,NULL);
@@ -35,6 +36,7 @@ int main()
     al_install_mouse();
     al_init_image_addon();
     al_init_acodec_addon();
+
     bool done = false;
     InputManager input;
     ScreenManager::GetInstance().Initialize();
@@ -51,7 +53,7 @@ int main()
     al_start_timer(timer);
     while(!done)
     {
-
+        al_play_sample(sample,1,0,1,ALLEGRO_PLAYMODE_LOOP,NULL);
 
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue,&ev);
@@ -66,6 +68,7 @@ int main()
         {
 
         }
+
 
         ScreenManager::GetInstance().Update(ev);
         ScreenManager::GetInstance().Draw(display);

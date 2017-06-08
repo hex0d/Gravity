@@ -10,8 +10,8 @@ BG::~BG()
     //dtor
 }
 
-void BG::LoadContent(){}
 
-void BG::Draw(ALLEGRO_DISPLAY *display){
+void BG::Draw(ALLEGRO_DISPLAY *display)
+{
     al_draw_bitmap(bg,0,0,NULL);
 }
