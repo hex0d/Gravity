@@ -81,6 +81,7 @@ void MenuManager::LoadContent(string id){
     }
     SetMenuItems();
     SetAnimation();
+    itemNumber =0 ;
 
 }
 

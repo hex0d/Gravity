@@ -12,6 +12,7 @@ class TitleScreen : public GameScreen
         ALLEGRO_FONT *font;
         MenuManager menu;
         InputManager input;
+        ALLEGRO_BITMAP *bg = al_load_bitmap("marcola.png");
 
     public:
         TitleScreen();

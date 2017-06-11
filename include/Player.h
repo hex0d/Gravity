@@ -8,6 +8,10 @@
 #include "SpriteSheetAnimation.h"
 #include "Physics.h"
 #include "GameOver.h"
+//#include "PPC.h"
+#include "Timer.h"
+#include <allegro5/allegro_acodec.h>
+#include <allegro5/allegro_audio.h>
 
 using namespace std;
 
@@ -23,20 +27,24 @@ class Player
         friend Physics;
         friend GameOver;
 
+      //  friend PPC;
+        ALLEGRO_BITMAP *playerImage;
+        Animation pAnimation;
     protected:
 
     private:
         FileManager fm;
-        ALLEGRO_BITMAP *playerImage;
+
         float position[2] = {100,100};
         int xSpeed;
         int ySpeed;
         Physics ph;
         GameOver go;
+        //Timer timer;
 
         vector<vector<string > > attributes;
         vector<vector<string > > contents;
-        Animation pAnimation;
+
         SpriteSheetAnimation ssAnimation;
         enum Direction {Right,Left};
         Direction direction;

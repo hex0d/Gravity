@@ -1,4 +1,6 @@
 #include "Player.h"
+#include "Includes.h"
+
 using namespace std;
 
 
@@ -14,6 +16,7 @@ Player::~Player()
 }
 void Player::LoadContent()
 {
+    //timer.start();
     fm.LoadContent("Load/Player.leo",attributes,contents);
     for(int i = 0 ; i<attributes.size(); i++)
     {
@@ -42,6 +45,7 @@ void Player::LoadContent()
     xSpeed = 5; //alterar no level
 
     pAnimation.LoadContent(playerImage,"",position);
+
 }
 void Player::UnloadContent()
 {
@@ -53,9 +57,11 @@ void Player::UnloadContent()
 }
 void Player::Update(ALLEGRO_EVENT ev, InputManager input)
 {
+        pAnimation.IsActive() = true;
+    ssAnimation.Update(pAnimation);
 
     input.Update();
-    pAnimation.IsActive() = true;
+
 
     if(input.IsKeyDown(ALLEGRO_KEY_SPACE)&& input.IsKeyDown(ALLEGRO_KEY_RIGHT))
         ph.playerMove(xSpeed,ySpeed,0);
@@ -72,12 +78,11 @@ void Player::Update(ALLEGRO_EVENT ev, InputManager input)
 
     pAnimation.CurrentFrame().second = direction;
 
-    if(pAnimation.position[1] <= 700 && !input.IsKeyDown(ALLEGRO_KEY_SPACE))
+    if(pAnimation.position[1] <= SCREENW - PLAYERSIZE && !input.IsKeyDown(ALLEGRO_KEY_SPACE))
         ph.playerMove(0,ySpeed,100); //100 - ANY NUMBER
 
     go.isDougrasDead();
 
-    ssAnimation.Update(pAnimation);
 }
 void Player::Draw(ALLEGRO_DISPLAY *display)
 {

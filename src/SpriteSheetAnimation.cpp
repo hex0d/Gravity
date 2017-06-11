@@ -13,7 +13,6 @@ SpriteSheetAnimation::~SpriteSheetAnimation()
 }
 
 void SpriteSheetAnimation::Update(Animation &a){
-
         if(a.IsActive()){
             frameCounter++;
             if(frameCounter >= switchFrame){

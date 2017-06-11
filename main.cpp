@@ -5,17 +5,32 @@ using namespace std;
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_native_dialog.h>
 #include <vector>
+#define SCREENW 800
+#define SCREENH 600
+#define PLAYERSIZE 100
+#include "Projectiles.h"
+#include "GameplayScreen.h"
+#include "BGSound.h"
 using std::vector;
+int GameplayScreen::fase =0;
+//ALLEGRO_SAMPLE *ss;
+
 int main()
 {
+
+    BGSound song;
+
     const float FPS =60.0;
     ALLEGRO_DISPLAY *display;
+
+    //ALLEGRO_SAMPLE *sample = al_load_sample("sgame.wav");
+
     if(!al_init())
     {
         al_show_native_message_box(NULL,"Error","Error","Cannot Initall al5",NULL,NULL);
         return -1;
     }
-    display = al_create_display(800,600);
+    display = al_create_display(SCREENW,SCREENH);
     if(!display)
     {
         al_show_native_message_box(NULL,"Error","Error","Cannot Initall display",NULL,NULL);
@@ -27,6 +42,25 @@ int main()
     al_install_mouse();
     al_init_image_addon();
     al_init_acodec_addon();
+
+    if(!al_install_audio()){
+//      comAudio = false;
+      cout << "failed to initialize audio!\n";
+      //return -1;
+   }
+
+   if(!al_init_acodec_addon()){
+      cout << "failed to initialize audio codecs!\n";
+      return -1;
+   }
+    //Reserves a number of sample instances, and creates a default mixer if one doesn't exist. This allows us to decide how many audio samples we will be creating for now we are only creating one.
+   if (!al_reserve_samples(1)){
+      cout << "failed to reserve samples!\n";
+      return -1;
+   }
+    //ss = al_load_sample("2.wav");
+    //song.playSong(ss);
+    //al_play_sample(ss,1.0,0.0,1,ALLEGRO_PLAYMODE_ONCE,NULL);
     bool done = false;
     InputManager input;
     ScreenManager::GetInstance().Initialize();
@@ -41,8 +75,11 @@ int main()
 
 
     al_start_timer(timer);
+//    song.playSong(song.bg);
     while(!done)
     {
+        //al_play_sample(sample,1,0,1,ALLEGRO_PLAYMODE_LOOP,NULL);
+
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue,&ev);
         al_get_keyboard_state(&keyState);
@@ -56,6 +93,7 @@ int main()
         {
 
         }
+
 
         ScreenManager::GetInstance().Update(ev);
         ScreenManager::GetInstance().Draw(display);
