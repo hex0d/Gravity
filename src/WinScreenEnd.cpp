@@ -1,4 +1,5 @@
 #include "WinScreenEnd.h"
+#include "ScreenManager.h"
 
 WinScreenEnd::WinScreenEnd()
 {
@@ -9,28 +10,16 @@ WinScreenEnd::~WinScreenEnd()
 {
     //dtor
 }
-void WinScreenEnd::Update(ALLEGRO_EVENT ev,InputManager &input){
-    /*input.Update();
-    if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
-        ScreenManager::GetInstance().AddScreen("GameplayScreen");
-    }*/
-
-
-}
 
 
 void WinScreenEnd::Draw(ALLEGRO_DISPLAY *display){
-    /*input.Update();
+    input.Update();
     if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
         ScreenManager::GetInstance().currentScreen->UnloadContent();
-        ScreenManager::GetInstance().AddScreen("TitleScreen");
+        ScreenManager::GetInstance().AddScreen("CreditScreen");
+        GameplayScreen::fase = 0;
 
     }
-    if((input.IsKeyDown(ALLEGRO_KEY_R))){
-        ScreenManager::GetInstance().currentScreen->UnloadContent();
-        ScreenManager::GetInstance().AddScreen("GameplayScreen");*/
-
-    //}
     al_draw_bitmap(go,250,200,NULL);
 
 }

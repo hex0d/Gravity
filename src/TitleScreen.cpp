@@ -26,10 +26,6 @@ void TitleScreen::UnloadContent()
 
 void TitleScreen::Update(ALLEGRO_EVENT ev)
 {
-    /*if (input.IsKeyPressed(ev,ALLEGRO_KEY_ENTER))
-    {
-        ScreenManager::GetInstance().AddScreen("TitleScreen");
-    }*/
     menu.Update(ev,input);
 
 }

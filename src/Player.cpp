@@ -16,7 +16,6 @@ Player::~Player()
 }
 void Player::LoadContent()
 {
-    //timer.start();
     fm.LoadContent("Load/Player.leo",attributes,contents);
     for(int i = 0 ; i<attributes.size(); i++)
     {

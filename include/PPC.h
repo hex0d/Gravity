@@ -1,5 +1,5 @@
 #pragma once
-//#include "GameplayScreen.h"
+
 #include "Player.h"
 
 
@@ -13,5 +13,4 @@ class PPC
     protected:
 
     private:
-        //Player *p1;
 };

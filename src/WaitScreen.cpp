@@ -16,7 +16,6 @@ WaitScreen::~WaitScreen()
 void WaitScreen::Draw(ALLEGRO_DISPLAY *display){
     input.Update();
     if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
-        cout<<"vooaodosa"<<endl;
         ScreenManager::GetInstance().AddScreen("GameplayScreen");
     }
 

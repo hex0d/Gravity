@@ -10,7 +10,6 @@ class GSod
         GSod();
         virtual ~GSod();
         void playSound(ALLEGRO_SAMPLE *CS);
-       // ALLEGRO_SAMPLE *CS = al_load_sample("CS.wav")
 
 
     protected:

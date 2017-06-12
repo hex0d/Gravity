@@ -22,11 +22,9 @@ class GameplayScreen : public GameScreen
         void liberaProjetil(ALLEGRO_EVENT ev);
         void checaColisao();
 
-        //static void setFase(int _fase);
-        //static int getFase();
+
         static int fase;
 
-//        friend PPC;
 
     protected:
 
@@ -39,6 +37,5 @@ class GameplayScreen : public GameScreen
         BGSound BGS;
         ALLEGRO_SAMPLE *bgs;
 
-        //void newProj();
 };
 

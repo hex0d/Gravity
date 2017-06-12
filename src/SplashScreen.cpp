@@ -51,7 +51,6 @@ void SplashScreen::Update(ALLEGRO_EVENT ev){
 
 }
 void SplashScreen::Draw(ALLEGRO_DISPLAY *display){
-        //al_draw_text(font, al_map_rgb(0,0,255),100,100,NULL, "this comes first");
     fade[imageNumber]->Draw(display);
 
 }

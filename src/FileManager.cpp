@@ -44,8 +44,6 @@ void FileManager::LoadContent(const char *filename,
                 else
                     tempContents.push_back(newLine);
 
-                std::cout << newLine<<std::endl;
-                std::cout << str<<std::endl;
             }
             if(type == Contents && tempContents.size()>0 )
             {
@@ -113,8 +111,6 @@ void FileManager::LoadContent(const char *filename,
                     else
                         tempContents.push_back(newLine);
 
-                    std::cout << newLine<<std::endl;
-                    std::cout << str<<std::endl;
                 }
                 if(type == Contents && tempContents.size()>0 )
                 {

@@ -10,14 +10,7 @@ WinScreen1::~WinScreen1()
 {
     //dtor
 }
-void WinScreen1::Update(ALLEGRO_EVENT ev,InputManager &input){
-    /*input.Update();
-    if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
-        ScreenManager::GetInstance().AddScreen("GameplayScreen");
-    }*/
 
-
-}
 
 
 void WinScreen1::Draw(ALLEGRO_DISPLAY *display){
@@ -25,7 +18,7 @@ void WinScreen1::Draw(ALLEGRO_DISPLAY *display){
     if(input.IsKeyDown(ALLEGRO_KEY_ENTER)){
         ScreenManager::GetInstance().currentScreen->UnloadContent();
         ScreenManager::GetInstance().AddScreen("TitleScreen");
-
+        GameplayScreen::fase = 0;
     }
     if((input.IsKeyDown(ALLEGRO_KEY_R))){
         ScreenManager::GetInstance().currentScreen->UnloadContent();

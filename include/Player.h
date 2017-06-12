@@ -8,7 +8,6 @@
 #include "SpriteSheetAnimation.h"
 #include "Physics.h"
 #include "GameOver.h"
-//#include "PPC.h"
 #include "Timer.h"
 #include <allegro5/allegro_acodec.h>
 #include <allegro5/allegro_audio.h>
@@ -27,7 +26,6 @@ class Player
         friend Physics;
         friend GameOver;
 
-      //  friend PPC;
         ALLEGRO_BITMAP *playerImage;
         Animation pAnimation;
     protected:
@@ -40,7 +38,6 @@ class Player
         int ySpeed;
         Physics ph;
         GameOver go;
-        //Timer timer;
 
         vector<vector<string > > attributes;
         vector<vector<string > > contents;

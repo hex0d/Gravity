@@ -8,7 +8,6 @@ MenuManager::MenuManager()
 
 MenuManager::~MenuManager()
 {
-    //dtor
 }
 
 void MenuManager::SetMenuItems(){
@@ -90,16 +89,13 @@ void MenuManager::UnloadContent(){
     for(int i = 0 ; i < menuImages.size(); i++){
         al_destroy_bitmap(menuImages[i]);
     }
-    /*for(int i = 0 ; i < animation.size(); i++){
-        delete animation[i];
-    }*/
+
     animation.clear();
     menuItens.clear();
     menuImages.clear();
     animationType.clear();
     attributes.clear();
     contents.clear();
-    //tempAnimation.clear();
 
     for(int i = 0;i<menuImages.size();i++){
         al_destroy_bitmap(menuImages[i]);

@@ -5,7 +5,6 @@ class BG
 {
     public:
         void LoadContent();
-        //void UnloadContent();
         void Draw(ALLEGRO_DISPLAY *display);
         BG();
         virtual ~BG();

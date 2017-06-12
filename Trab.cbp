@@ -53,8 +53,6 @@
 		<Unit filename="include/GameplayScreen.h" />
 		<Unit filename="include/Includes.h" />
 		<Unit filename="include/InputManager.h" />
-		<Unit filename="include/Layer.h" />
-		<Unit filename="include/Map.h" />
 		<Unit filename="include/MenuManager.h" />
 		<Unit filename="include/PPC.h" />
 		<Unit filename="include/Physics.h" />
@@ -65,7 +63,6 @@
 		<Unit filename="include/Sound.h" />
 		<Unit filename="include/SplashScreen.h" />
 		<Unit filename="include/SpriteSheetAnimation.h" />
-		<Unit filename="include/Tile.h" />
 		<Unit filename="include/Timer.h" />
 		<Unit filename="include/TitleScreen.h" />
 		<Unit filename="include/WaitScreen.h" />
@@ -92,7 +89,6 @@
 		<Unit filename="src/Physics.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Unit filename="src/Projectiles.cpp" />
-		<Unit filename="src/Projetil.cpp" />
 		<Unit filename="src/ScreenManager.cpp" />
 		<Unit filename="src/Sound.cpp" />
 		<Unit filename="src/SplashScreen.cpp" />

@@ -13,7 +13,6 @@ using namespace std;
 #include "BGSound.h"
 using std::vector;
 int GameplayScreen::fase =0;
-//ALLEGRO_SAMPLE *ss;
 
 int main()
 {
@@ -23,7 +22,6 @@ int main()
     const float FPS =60.0;
     ALLEGRO_DISPLAY *display;
 
-    //ALLEGRO_SAMPLE *sample = al_load_sample("sgame.wav");
 
     if(!al_init())
     {
@@ -44,23 +42,17 @@ int main()
     al_init_acodec_addon();
 
     if(!al_install_audio()){
-//      comAudio = false;
       cout << "failed to initialize audio!\n";
-      //return -1;
    }
 
    if(!al_init_acodec_addon()){
       cout << "failed to initialize audio codecs!\n";
       return -1;
    }
-    //Reserves a number of sample instances, and creates a default mixer if one doesn't exist. This allows us to decide how many audio samples we will be creating for now we are only creating one.
    if (!al_reserve_samples(1)){
       cout << "failed to reserve samples!\n";
       return -1;
    }
-    //ss = al_load_sample("2.wav");
-    //song.playSong(ss);
-    //al_play_sample(ss,1.0,0.0,1,ALLEGRO_PLAYMODE_ONCE,NULL);
     bool done = false;
     InputManager input;
     ScreenManager::GetInstance().Initialize();
@@ -75,10 +67,8 @@ int main()
 
 
     al_start_timer(timer);
-//    song.playSong(song.bg);
     while(!done)
     {
-        //al_play_sample(sample,1,0,1,ALLEGRO_PLAYMODE_LOOP,NULL);
 
         ALLEGRO_EVENT ev;
         al_wait_for_event(event_queue,&ev);

@@ -73,10 +73,8 @@ void ScreenManager::Transition(){
         if(transition.Alpha()>= 255){
         transition.Alpha() = 255;
         currentScreen -> UnloadContent();
-      //delete currentScreen;
         currentScreen = newScreen;
         currentScreen ->LoadContent();
-   //     al_rest(1.0);
     }
     else if(transition.Alpha() <= 0 ){
         startTransition = false;
